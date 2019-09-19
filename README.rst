@@ -13,6 +13,8 @@ url2tree
         :target: https://url2tree.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://codecov.io/gh/xodhx4/url2tree/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/xodhx4/url2tree
 
 
 

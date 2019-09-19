@@ -6,7 +6,7 @@ python:
   - 3.6
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-install: pip install -U tox-travis
+install: pip install -U tox-travis codecov
 
 # Command to run tests, e.g. python setup.py test
 script: tox
@@ -25,3 +25,6 @@ deploy:
     tags: true
     repo: xodhx4/url2tree
     python: 3.7
+
+after_success: 
+  - codecov
